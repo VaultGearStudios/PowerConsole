@@ -113,7 +113,7 @@ body {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #892746);
+  background: linear-gradient(180deg, transparent, #5a3555);
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
