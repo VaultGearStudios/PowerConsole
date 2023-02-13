@@ -5,7 +5,7 @@
 }
 
 :root {
-  --card-height: 77vh;
+  --card-height: 35vh;
   --card-width: calc(var(--card-height) / 0.725);
 }
 
