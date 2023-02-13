@@ -1,17 +1,20 @@
 <html>
   <head>
     <link rel = "stylesheet" type = "text/css" href = "/pages/captcha/Captcha.css">
-    <script src="https://js.hcaptcha.com/1/api.js?render=explicit" async defer></script>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
     <style>
     </style>
   </head>
-  <body onload="generate()">
+  <body>
     <div class="card">
-      <div
+      <form action="" method="POST">
+        <div
   class="h-captcha"
   data-sitekey="abf1c54f-defe-4a2e-93cc-e5e19802bbdd"
+  data-size="compact"
   data-theme="dark"
-  data-error-callback="onError"
-></div>
+  data-error-callback="onError">
+        </div>
+      </form>
   </body>
 </html>
