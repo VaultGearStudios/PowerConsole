@@ -1,19 +1,17 @@
 <html>
   <head>
     <link rel = "stylesheet" type = "text/css" href = "/pages/captcha/Captcha.css">
-    <script type="text/javascript">
-  hcaptcha.render('captcha-1', {
-    sitekey: 'abf1c54f-defe-4a2e-93cc-e5e19802bbdd',
-    theme: 'dark',
-    'error-callback': 'onError',
-  });
 </script>
     <style>
     </style>
   </head>
   <body onload="generate()">
     <div class="card">
-      
-    </div>
+      <div
+  class="h-captcha"
+  data-sitekey="your_site_key"
+  data-theme="dark"
+  data-error-callback="onError"
+></div>
   </body>
 </html>
