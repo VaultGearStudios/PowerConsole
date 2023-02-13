@@ -11,14 +11,13 @@ body {
 
 .card {
   background: #171717;
-  width: var(--card-width);
-  height: var(--card-height);
-  padding: 3px;
-  position: relative;
+  width: 33.333%;
+  height: 33.333%;
+  position: center;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   display: flex;
   font-size: 1.5em;
   color: rgb(245 0 0 / 0%);
