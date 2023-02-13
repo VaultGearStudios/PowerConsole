@@ -2,8 +2,7 @@
   <head>
     <link rel = "stylesheet" type = "text/css" href = "/pages/captcha/Captcha.css">
     <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-    <style>
-    </style>
+    ready();
   </head>
   <body>
     <div class="card">
@@ -14,6 +13,7 @@
   data-size="compact"
   data-theme="dark"
   data-error-callback="onError">
+          <script src="pages/captcha/captcha.js"></script>
         </div>
       </form>
   </body>
