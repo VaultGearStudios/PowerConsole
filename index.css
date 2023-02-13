@@ -10,17 +10,16 @@ body {
 }
 
 .card {
-  background: #171717;
-  width: 33.333%;
-  height: 33.333%;
-  position: center;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
+  max-width: 340px;
+  margin: auto;
+  overflow-y: auto;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 1);
   display: flex;
-  font-size: 1.5em;
-  color: rgb(245 0 0 / 0%);
-  cursor: pointer;
-  font-family: cursive;
+  transition: 0.3s;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
 }
