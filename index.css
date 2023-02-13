@@ -1,9 +1,27 @@
 html {
   height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: linear-gradient(#b91a37, #000000);
+}
+
+.card {
+  background: #171717;
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(245 0 0 / 0%);
+  cursor: pointer;
+  font-family: cursive;
 }
