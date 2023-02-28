@@ -1,21 +1,19 @@
-var attempt = 3; // Variable to count number of attempts.
-// Below function Executes on click of login button.
-function validate() {
-  var username = document.getElementById("user").value;
-  var password = document.getElementById("pass").value;
-  if (username == "user" && password == "pass") {
-    alert("Login successfully");
-    window.location = "https://codepen.io/devilglitch/full/KKBLwde"; // Redirecting to other page.
-    return false;
-  } else {
-    attempt--; // Decrementing by one.
-    alert("You have left " + attempt + " attempt;");
-    // Disabling fields after 3 attempts.
-    if (attempt == 0) {
-      document.getElementById("username").disabled = true;
-      document.getElementById("password").disabled = true;
-      document.getElementById("submit").disabled = true;
-      return false;
-    }
-  }
-}
+const form = document.getElementById('login');
+
+form.addEventListener('login', (event) => {
+  event.preventDefault();
+  
+  const name = document.getElementById('user').value;
+  const message = document.getElementById('pass').value;
+  
+    let { data, error } = await supabase
+      .rpc('check_credentials', {
+        var name, 
+        var message
+        })
+
+if (error) console.error(error)
+else console.log(data)
+
+  
+});
