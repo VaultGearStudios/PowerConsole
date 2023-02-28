@@ -1,7 +1,4 @@
 const form = document.getElementById('login');
-
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
   
   const name = document.getElementById('user').value;
   const message = document.getElementById('pass').value;
