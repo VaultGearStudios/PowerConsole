@@ -37,4 +37,28 @@
   </form>
   <script src="script.js"></script>
 </div>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBcEnSLtNBAHtgNMeLO_IBoIDOErAhIZZw",
+    authDomain: "powerconsole-0w0.firebaseapp.com",
+    projectId: "powerconsole-0w0",
+    storageBucket: "powerconsole-0w0.appspot.com",
+    messagingSenderId: "777782226989",
+    appId: "1:777782226989:web:863103d17dbcf34d3008a4",
+    measurementId: "G-JQ0GYLP2Y9"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body?
 </html>
