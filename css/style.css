@@ -41,18 +41,19 @@ h1 {
 }
 
 h2 {
-  color: #f0f0f0;
+  color: #B91A37;
   font-size: 32px;
 }
 
 h3 {
-  color: #535bd4;
+  color: #892746;
   font-size: 22px;
   line-height: 32px;
   padding-bottom: 4px;
 }
 
 h4 {
+  color: #5A3555;
   font-weight: bold;
 }
 
